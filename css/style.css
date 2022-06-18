@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons button {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 174, 0);
+    border: none;
+    width: 6rem;
+    height: 3rem;
+    border-radius: .2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttons {
+    padding-top: 1rem;
+}
+
+#turnOn:hover {
+    background-color: rgba(229, 255, 0, 0.450);
+    font-size: 1rem;
+}
+#turnOff:hover {
+    background-color: rgba(255, 0, 0, 0.450);
+    color: rgb(165, 1, 1);
+    font-size: 1rem;
+}
+
+.invisibleOff {
+    display: none;
+}
+
+.invisibleOn {
+    display: none;
+}
+
